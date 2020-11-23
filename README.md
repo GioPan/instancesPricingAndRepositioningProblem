@@ -11,6 +11,7 @@ In order to generate instances the code accepts the following command line argum
 - city the city for which we are reading the data (optional, default = "mi"). This determines which files are read (default `zones_mi.txt`and `times_mi.txt`).
 - ic whether customers should be characterized by the same utility function (default = false). By passing the options the customers will be identical. 
 - verb whether to print instance information (default = false). 
+
 Example usage 
 - `java Main -v 10 -c 50 -s 10 -conf 0 -i 1 -verb ` creates an instance with 10 vehicles, 50 customers and 10 scenarios using configuration file `config_0.txt`and seed $1$. Prints information on the instance generated. 
 - `java Main -v 10 -c 50 -verb ` creates an instance with 10 vehicles, 50 customers and 1 scenario (defaults) using configuration file `config_0.txt` (default) and seed $1$ (default). Prints information on the instance generated. 
