@@ -1,0 +1,16 @@
+2  #Alternative transport services
+PT BI #Alternative transport services names
+-188.33 -70.63 #Range for Beta^Price
+-1.0 -2.0 -4.0 -2.5 -6.0 # Beta for CS time, PT time, B time, Walk and Wait, respectively
+0.2 #Customers variability e.g., beta_k = (1+-0.2) * beta
+0.265 #Per-minute CS fee
+2.0 #PT price
+0.0 #BI price
+-2 # Min drop off fee
+2 # Max drop off fee
+10 #Zones
+0.8 0.2 0.2 #AlphaFrom AlphaTo (used to distribute customers to zones) AlphaInitial (used to distribute vehicles to zones), high alpha --> more cars to center
+50 # Km/h driving speed
+0.043 # l/km consumption Fiat 500
+1.60 # Euro/l fuel price italy
+0.20 # Euro/min

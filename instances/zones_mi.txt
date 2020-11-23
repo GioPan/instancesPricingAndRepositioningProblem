@@ -1,0 +1,11 @@
+id name walking_distance_to_dome_in_km
+1 Washinghton 3.1
+2 Carrobbio 0.9
+3 Ticinese  1.2
+4 Guastalla  1.4
+5 QDM   0.85
+6 CentralStation 2.8
+7 Portobello  3.0
+8 Derganino  5.3
+9 ChinaTown  2.6
+10 Sempione  2.3
